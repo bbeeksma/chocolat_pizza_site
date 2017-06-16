@@ -10,6 +10,13 @@ LightGray
 body{
   font-family: 'Spectral', serif;
 }
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+p{
+  text-indent: 2em;
+}
 .logo h2{
   font-family: Damion, serif;
   font-size: 32px;
@@ -19,8 +26,7 @@ body{
 }
 .logo h3{
   font-size: 10px;
-  margin: 0;
-  padding: 0;
+  color: black;
 }
 .logoText{
   float:left;
@@ -28,9 +34,14 @@ body{
 }
 h3{
   font-family: Inconsolata, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: lightgray;
 }
 h1{
   font-family: 'Francois One', sans-serif;
+  margin-bottom: 0;
 }
 form{
   font-family: 'Kalam', cursive;
@@ -59,4 +70,19 @@ form{
 .siteHeader{
   clear: both;
   overflow: auto;
+}
+.printLink{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.printLink img{
+  display: inline;
+}
+.printLink h3{
+  display: inline-block;
+}
+.pageHeader{
+  position: relative;
+  margin-bottom: 20px;
 }
