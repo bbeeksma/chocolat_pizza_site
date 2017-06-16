@@ -1,6 +1,3 @@
-body{
-  border: 1px dotted black;
-}
 /*
 font-family: 'Kalam', cursive;
 font-family: 'Damion', cursive;
@@ -10,3 +7,18 @@ font-family: 'Spectral', serif;
 IndianRed
 LightGray
 */
+body{
+  font-family: 'Spectral', serif;
+}
+.logo h2{
+  font-family: Damion, serif;
+}
+h3{
+  font-family: Inconsolata, sans-serif;
+}
+h1{
+  font-family: 'Francois One', sans-serif;
+}
+form{
+  font-family: 'Kalam', cursive;
+}
