@@ -161,3 +161,13 @@ form{
 .copyright p{
   margin-top: 50px;
 }
+.diagonalStripes{
+  height: 10px;
+  background-color: grey;
+  margin: 20px 0 30px 0;
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  black 1px
+  );
+}
