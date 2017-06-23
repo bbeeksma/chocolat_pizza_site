@@ -1,0 +1,176 @@
+/*
+font-family: 'Kalam', cursive;
+font-family: 'Damion', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Francois One', sans-serif;
+font-family: 'Spectral', serif;
+IndianRed
+LightGray
+*/
+body{
+  font-family: 'Spectral', serif;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+p{
+  text-indent: 2em;
+}
+.logo h2{
+  font-family: Damion, serif;
+  font-size: 35px;
+  vertical-align: top;
+  margin: -5px 0 0 0;
+  padding: 0;
+}
+.logo h3{
+  font-size: 10px;
+  color: black;
+  margin-top: -7px;
+}
+.logoText{
+  float:left;
+  padding-left: 10px;
+}
+h3{
+  font-family: Inconsolata, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: gray;
+  word-spacing: -0.3em;
+}
+h1{
+  font-family: 'Francois One', sans-serif;
+  margin-bottom: 0;
+}
+form{
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+.widthContainer{
+  width: 90%;
+  max-width: 901px;
+  margin: auto;
+}
+.hero{
+  width: 100%
+}
+.logo{
+  float: left;
+  padding-top: 10px;
+}
+.logo img{
+  float: left;
+}
+.mediaNav{
+  float: right;
+}
+.mediaNav li{
+  display: inline-block;
+}
+.siteHeader{
+  clear: both;
+  overflow: auto;
+}
+.printLink{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.printLink img{
+  display: inline;
+}
+.printLink h3{
+  display: inline-block;
+}
+.pageHeader{
+  position: relative;
+  margin-bottom: 20px;
+}
+.recipe{
+  background-image: url('images/list-bg.png');
+  background-repeat: no-repeat;
+  clear: both;
+  overflow: auto;
+  min-height: 305px;
+}
+.recipe ul{
+  margin: 35px 25px 0 25px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-coulmn-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+}
+.recipe li{
+  list-style-type: none;
+}
+.author{
+  clear:both;
+  overflow: auto;
+}
+.author img{
+  float: left;
+}
+.authorText{
+  float: left;
+  width: 65%;
+  padding-left: 10px;
+}
+.author h4{
+  margin: 0;
+  font-size: 18;
+}
+.author p{
+  text-indent: 0;
+  margin-top: 0.5em;
+}
+.author form{
+  float: right;
+}
+.button{
+  background-color: indianRed;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+}
+.lightHR{
+  width: 45%;
+  float: left;
+  margin: 15px auto 0 auto;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.lightHR:last-child{
+  float:right;
+}
+.fuBox{
+  clear: both;
+  overflow:auto;
+  height: 33px;
+  text-align: center;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+}
+.copyright p{
+  margin-top: 50px;
+}
+.diagonalStripes{
+  height: 10px;
+  background-color: grey;
+  margin: 20px 0 30px 0;
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  black 1px
+  );
+}
